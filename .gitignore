@@ -1,0 +1,63 @@
+# ============================
+# Common
+# ============================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Logs
+logs
+*.log
+*.tmp
+*.temp
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# ============================
+# Frontend (React Native)
+# ============================
+Frontend/node_modules/
+Frontend/.expo/
+Frontend/.expo-shared/
+Frontend/web-build/
+Frontend/android/
+Frontend/ios/
+Frontend/build/
+
+# Metro Bundler cache
+Frontend/.metro-cache/
+Frontend/.bundle/
+
+# React Native specific
+Frontend/expo-env.d.ts
+Frontend/dist/
+
+# ============================
+# Backend (Node.js / Express)
+# ============================
+Backend/node_modules/
+Backend/dist/
+Backend/build/
+Backend/tmp/
+Backend/coverage/
+
+# PM2 logs
+Backend/pids
+Backend/logs
+Backend/*.pid
+Backend/*.seed
+
+# ============================
+# VS Code & IDE settings
+# ============================
+.vscode/
+.idea/
